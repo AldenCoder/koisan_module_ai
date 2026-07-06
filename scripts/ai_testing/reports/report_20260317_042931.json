@@ -1,0 +1,58 @@
+{
+  "data_file": "/Users/aldenrs/Documents/project/xoai_module_ai/scripts/ai_testing/training_pairs_20260316_093222.user_only.jsonl",
+  "progress_file": "/Users/aldenrs/Documents/project/xoai_module_ai/scripts/ai_testing/test_full_flow_cli.progress.txt",
+  "started_at": "2026-03-17T03:57:58.522053Z",
+  "finished_at": "2026-03-17T04:29:31.319907Z",
+  "start_index": 0,
+  "end_index_exclusive": 100,
+  "total_messages": 4689,
+  "processed": 100,
+  "success": 94,
+  "failed": 6,
+  "failures": [
+    {
+      "index": 33,
+      "text": "Mình muốn tham khảo gói chụp ngoại cảnh tại vinpearl nha",
+      "customer_id": "t_1662558238427594",
+      "message_mid": "m_9947f8bf9285",
+      "error": "HTTPException: 503: Slot detection failed from LLM"
+    },
+    {
+      "index": 38,
+      "text": "Dạ ngày 12/5 DL, sang gia tiên trưa đãi tiệc ạ, em cần tham khảo quay chụp bên mình ạ",
+      "customer_id": "t_1894239817856178",
+      "message_mid": "m_fafc8bf150a7",
+      "error": "HTTPException: 503: Slot detection failed from LLM",
+      "error_value": "Slot detection failed from LLM"
+    },
+    {
+      "index": 42,
+      "text": "với rừng cam lâm ak",
+      "customer_id": "t_3523816804447878",
+      "message_mid": "m_452acd409003",
+      "error": "HTTPException: 503: Generate slot question failed from LLM"
+    },
+    {
+      "index": 64,
+      "text": "E muốn chụp kiểu Hàn Quốc trong studio ak.",
+      "customer_id": "t_1033097614362580",
+      "message_mid": "m_4d04178eda45",
+      "error": "HTTPException: 503: Slot detection failed from LLM"
+    },
+    {
+      "index": 76,
+      "text": "Neu Trang diem ko gan mi gia ak",
+      "customer_id": "t_1033097614362580",
+      "message_mid": "m_4d04178eda45",
+      "error": "HTTPException: 503: Slot detection failed from LLM"
+    },
+    {
+      "index": 87,
+      "text": "Cho e hẹn ngày 20/3 e chụp ảnh cưới chị nhé",
+      "customer_id": "t_1033097614362580",
+      "message_mid": "m_4d04178eda45",
+      "error": "HTTPException: 503: Slot detection failed from LLM"
+    }
+  ],
+  "interrupted": false
+}
